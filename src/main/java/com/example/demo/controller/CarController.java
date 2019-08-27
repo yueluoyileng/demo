@@ -49,8 +49,8 @@ public class CarController {
                 return car;
        }
 
-       public void testToEat(){
-                System.out.println("to Eat");
+       public void testPrint(){
+                System.out.println("hello yueluo");
        }
 
        @GetMapping("/getCar4")
@@ -59,7 +59,7 @@ public class CarController {
        }
 
        public String test(){
-                return "i change the retu demo2";
+                return "i change the return String by demo2 ";
        }
 
        @InitBinder
