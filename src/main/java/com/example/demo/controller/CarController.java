@@ -62,7 +62,6 @@ public class CarController {
                 return "just test";
        }
 
-
        @InitBinder
        private void initBinder(WebDataBinder webDataBinder){
                 webDataBinder.addCustomFormatter(new DateFormatter("yyyy-MM-dd HH:mm:ss"));
