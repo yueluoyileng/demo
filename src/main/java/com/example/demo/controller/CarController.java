@@ -59,7 +59,7 @@ public class CarController {
        }
 
        public String test(){
-                return "i change the return String by demo2 ";
+                return "i change the return demo1 ";
        }
 
        @InitBinder
