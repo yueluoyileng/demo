@@ -49,10 +49,20 @@ public class CarController {
                 return car;
        }
 
+       public void testPrint(){
+                System.out.println("hello yueluo");
+       }
+
        @GetMapping("/getCar4")
        public  Car getCar4(Car car){
                 return car;
        }
+
+       public String test(){
+                return "just test";
+       }
+
+
        @InitBinder
        private void initBinder(WebDataBinder webDataBinder){
                 webDataBinder.addCustomFormatter(new DateFormatter("yyyy-MM-dd HH:mm:ss"));
